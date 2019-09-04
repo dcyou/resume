@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "build": "cross-env DEPLOY_ENV=MASTER nuxt build",
+    "generate": "cross-env DEPLOY_ENV=MASTER nuxt generate"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
@@ -19,6 +19,7 @@
     "@fortawesome/fontawesome-free": "^5.10.1",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
+    "cross-env": "^5.2.1",
     "jest": "^24.1.0",
     "markdown-it": "^9.1.0",
     "node-sass": "^4.12.0",

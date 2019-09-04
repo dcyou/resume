@@ -1,9 +1,14 @@
-
-export default {
-  buildDir: 'docs',
+const routerBase = process.env.DEPLOY_ENV === 'MASTER' ? {
   router: {
     base: '/resume/'
+  }
+} : {}
+
+export default {
+  generate: {
+    dir: 'docs'
   },
+  ...routerBase,
   mode: 'spa',
   /*
   ** Headers of the page
