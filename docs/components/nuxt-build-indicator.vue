@@ -37,7 +37,7 @@ export default {
   },
   computed: {
     wsURL() {
-      const _path = '/_loading/ws'
+      const _path = '/resume/_loading/ws'
       const _protocol = location.protocol === 'https:' ? 'wss' : 'ws'
       return `${_protocol}://${location.hostname}:${location.port}${_path}`
     }

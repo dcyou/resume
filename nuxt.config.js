@@ -1,6 +1,9 @@
 
 export default {
   buildDir: 'docs',
+  router: {
+    base: '/resume/'
+  },
   mode: 'spa',
   /*
   ** Headers of the page

@@ -23,7 +23,7 @@ const createNext = ssrContext => (opts) => {
   }
   opts.query = stringify(opts.query)
   opts.path = opts.path + (opts.query ? '?' + opts.query : '')
-  const routerBase = '/'
+  const routerBase = '/resume/'
   if (!opts.path.startsWith('http') && (routerBase !== '/' && !opts.path.startsWith(routerBase))) {
     opts.path = urlJoin(routerBase, opts.path)
   }
