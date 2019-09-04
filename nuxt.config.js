@@ -23,7 +23,10 @@ export default {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    '@fortawesome/fontawesome-free/css/all.css',
+    '@/assets/css/main.scss',
+    '@/assets/css/dark.scss',
   ],
   /*
   ** Plugins to load before mounting the App
