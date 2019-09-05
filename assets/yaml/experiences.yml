@@ -1,4 +1,24 @@
 # Experience template
+- company: DCyou
+  link: https://david.dcyou.fr
+  place: Annecy
+  job_title: founder
+  dates: 2018 - 2019
+  description: | # this will include new lines to allow paragraphs
+    - Website, Channel manager, Marketing (Google Ads etc.) and manual labor for Chalet le Charmélie 1600 at Flaine: https://chalet-charmelie.com
+    - Self-taught:
+      -Jenkins : https://trainingcourses.page.link/jenkins /
+      https://trainingcourses.page.link/jenkins-2
+      -Python: https://trainingcourses.page.link/python-1 /
+      https://trainingcourses.page.link/python-2
+      -Magento 1: https://trainingcourses.page.link/magento1
+      -React / Firebase: https://trainingcourses.page.link/react
+      -React Native: https://trainingcourses.page.link/react-native
+      -Silex: https://trainingcourses.page.link/silex
+      -BDD (Behat): https://trainingcourses.page.link/behat
+      -AWS (EC2, RDS, Beanstalk, S3): https://trainingcourses.page.link/aws
+      -Laravel 5.8 + VueJS 2.x
+
 - company: Firmenich
   link: https://www.firmenich.com
   place: Geneva
