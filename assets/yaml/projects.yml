@@ -1,0 +1,7 @@
+# Project template
+- name: Resume
+  link: https://github.com/dcyou/resume
+  description: > # this will include new lines to allow paragraphs
+    I started this project as a way of learning <mark>NuxtJS</mark> and <mark>Element</mark> component library. 
+    I have learned many skills through this and been I’m very proud of having this in my portfolio. 
+    If you don’t have a project as awesome as this I would advise you make one.

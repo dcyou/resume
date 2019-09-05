@@ -8,8 +8,8 @@
     "dev": "nuxt",
     "start": "nuxt start",
     "test": "jest",
-    "build": "cross-env DEPLOY_ENV=MASTER nuxt build",
-    "generate": "cross-env DEPLOY_ENV=MASTER nuxt generate"
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
@@ -19,9 +19,8 @@
     "@fortawesome/fontawesome-free": "^5.10.1",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
-    "cross-env": "^5.2.1",
     "jest": "^24.1.0",
-    "markdown-it": "^9.1.0",
+    "js-yaml-loader": "^1.2.2",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.2.0",
     "vue-jest": "^4.0.0-0"

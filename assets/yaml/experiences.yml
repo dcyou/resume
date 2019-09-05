@@ -1,0 +1,66 @@
+# Experience template
+- company: Firmenich
+  link: https://www.firmenich.com
+  place: Geneva
+  job_title: Lead developer / DevOps / Junior data scientist
+  dates: 2014 - 2018
+  description: | # this will include new lines to allow paragraphs
+    As lead developer
+      - By combine different technology, web applications for proof of concept
+      - Elasticsearch with Meteor to build an intelligent search engine tailored
+      - PHP with MySQL for an global application of user management and application management
+      - NodeJS, create some packages for the applications (authentication with JWT, databases connections etc.) usage of some Design Pattern
+      - NodeJS, Matlab, MySQL and MongoDB to build a complex app to improve business performance
+
+      - Code review
+      - Team training for Git best practices and development best practices
+      Languages: NodeJS, React, PHP, Matlab Databases: MySQL, Elasticsearch, MongoDB, Oracle, GraphQL 
+      
+      As DevOps
+
+      - From scratch, creation and support of a software factory. Environments of development, qualification and production for Matlab models (Windows moved to Linux Redhat) and another one for web applications (implementation from scratch Linux Redhat)
+      - Management of Ubuntu server with Docker. Creation of image and scripting to simplify the usage of containers
+      Skills: Docker, GIT, Gitlab, Gitlab CI, Capistrano, LAMP, NGINX, Matlab Production Server
+      
+      As junior data scientist
+
+      - Scripting SQL and PL/SQL to aggregate, clean and calculate data.
+      - Analyze, organize and structured data to help principal scientists
+      - Implementation of Matlab Unit testing
+      - Official training by Mathworks:
+        - MATLAB Fundamentals
+        - MATLAB Programming Techniques
+        - Building Interactive Applications in MATLAB
+        - Machine Learning with MATLAB
+- company: Greenweez.com
+  link: https://www.greenweez.com/
+  place: Annecy
+  job_title: Web developer
+  dates: 2012 - 2014
+  description: | # this will include new lines to allow paragraphs
+    - Website development and maintenance
+    - Project management (mobile website, implementation of new payment and delivery method)
+    - Development of new order check out by using PHP object
+    - Implementation of a new search engine with Elasticsearch
+    - Internationalization to open the website to new countries (Spain, UK, Italy etc.)
+    - Code review to fix some security breach
+    Skills: PHP, JavaScript, MySQL, Elasticsearch
+- company: Dipole
+  link: https://www.dipole.eu/
+  place: Lyon
+  job_title: Student
+  dates: 2010 - 2012
+  description: | # this will include new lines to allow paragraphs
+    Migration of a Workflow product (management of quality) from C++ to a web solution
+    Skills: PHP (Zend Framework), JavaScript (ExtJS), JGraph, FusionChart, PowerChart
+- company: ESS / RET
+  link: https://www.ret.fr/
+  place: Annecy
+  job_title: Student
+  dates: 2008 - 2010
+  description: | # this will include new lines to allow paragraphs
+    - Work as an system and network administrator
+    Skills: OCS, GLPI, WIKI, WSUS, Windows servers administration, hiring process
+    - Applications development for files treatment and accounting management
+    Skills: C#, Crystal report
+  

@@ -1,4 +1,4 @@
-const routerBase = process.env.DEPLOY_ENV === 'MASTER' ? {
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/resume/'
   }
@@ -62,6 +62,10 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+      config.module.rules.push({
+        test: /\.ya?ml$/,
+        use: 'js-yaml-loader',
+      })
     }
   }
 }
