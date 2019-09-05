@@ -5,9 +5,6 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 } : {}
 
 export default {
-  generate: {
-    dir: 'docs'
-  },
   ...routerBase,
   mode: 'spa',
   /*
