@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h3>{{projects.projects_title ? projects.projects_title : "Projects"}}</h3>
-        <el-card v-for="(project, index) in projects"
+        <h3>{{projectsDataprojects_title ? projectsDataprojects_title : "Projects"}}</h3>
+        <el-card v-for="(project, index) in projectsData.projects"
               v-bind:data="project"
               v-bind:index="index"
               :key="index"
@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import projects from '~/assets/yaml/projects.yml';
+import projectsData from '~/assets/yaml/projects.yml';
 export default {
     props: [],
     data() {
         return { 
-            projects: []              
+            projectsData: {}              
         }
     },
     created: function() {
@@ -32,7 +32,7 @@ export default {
     },
     methods: {
         getContent() {
-            this.projects = projects;
+            this.projectsData = projectsData;
         }
     }
 }

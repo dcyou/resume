@@ -13,7 +13,7 @@ export default {
     props: [],
     data() {
         return { 
-            hobbies: null              
+            hobbies: {}              
         }
     },
     created: function() {

@@ -1,4 +1,6 @@
 # Education Template
+# educations_title: Education #(Use this to override)
+educations:
 - name: EPSI
   place: Lyon
   dates: 2010 - 2012

@@ -1,4 +1,6 @@
 # Experience template
+# experiences_title: Work experience #(Use this to override)
+experiences:
 - company: DCyou
   link: https://david.dcyou.fr
   place: Annecy

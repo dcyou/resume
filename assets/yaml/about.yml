@@ -1,4 +1,5 @@
 # About Section
+# about_title: About Me (Use this to override)
 about_profile_image: me.jpg
 about_content: > # this will include new lines to allow paragraphs
   Hi, my name’s David. 

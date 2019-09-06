@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <h3>{{educations.educations_title ? educations.education_title : "Education"}}</h3>
+        <h3>{{educationsData.educations_title ? educationsData.education_title : "Education"}}</h3>
         <el-timeline>
             <el-timeline-item
-            v-for="(education, index) in educations"
+            v-for="(education, index) in educationsData.educations"
             :key="index"
             :timestamp="education.dates"
             placement="top">
@@ -11,7 +11,7 @@
                 <h4>
                     {{education.name}}
                     <el-divider direction="vertical"></el-divider>
-                    <span class="fas fa-map-marker-alt"> {{education.place}}</span> 
+                    <span><i class="fas fa-map-marker-alt"></i> {{education.place}}</span>
                 </h4> 
                 <p>{{education.qualification}}</p>
             </el-card>
@@ -21,12 +21,12 @@
 </template>
 
 <script>
-import educations from '~/assets/yaml/educations.yml';
+import educationsData from '~/assets/yaml/educations.yml';
 export default {
     props: [],
     data() {
         return { 
-            educations: null              
+            educationsData: {}              
         }
     },
     created: function() {
@@ -34,7 +34,7 @@ export default {
     },
     methods: {
         getContent() {
-            this.educations = educations;
+            this.educationsData = educationsData;
         }
     }
 }

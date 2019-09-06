@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h3>{{experiences.experiences_title ? experiences.experience_title : "Work experience"}}</h3>
-        <el-card v-for="(experience, index) in experiences"
+        <h3>{{experiencesDataexperiences_title ? experiencesDataexperience_title : "Work experience"}}</h3>
+        <el-card v-for="(experience, index) in experiencesData.experiences"
             v-bind:data="experience"
             v-bind:index="index"
             :key="index">
@@ -23,12 +23,12 @@
 </template>
 
 <script>
-import experiences from '~/assets/yaml/experiences.yml';
+import experiencesData from '~/assets/yaml/experiences.yml';
 export default {
     props: [],
     data() {
         return { 
-            experiences: null              
+            experiencesData: {}              
         }
     },
     created: function() {
@@ -36,7 +36,7 @@ export default {
     },
     methods: {
         getContent() {
-            this.experiences = experiences;
+            this.experiencesData = experiencesData;
         }
     }
 }

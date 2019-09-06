@@ -1,4 +1,6 @@
 # Project template
+# projects_title: Projects #(Use this to override)
+projects:
 - name: Resume
   link: https://github.com/dcyou/resume
   description: > # this will include new lines to allow paragraphs
