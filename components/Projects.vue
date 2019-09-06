@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h3>{{projectsDataprojects_title ? projectsDataprojects_title : "Projects"}}</h3>
+        <h3>{{projectsData.projects_title ? projectsData.projects_title : "Projects"}}</h3>
         <el-card v-for="(project, index) in projectsData.projects"
               v-bind:data="project"
               v-bind:index="index"

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h3>{{experiencesDataexperiences_title ? experiencesDataexperience_title : "Work experience"}}</h3>
+        <h3>{{experiencesData.experiences_title ? experiencesData.experience_title : "Work experience"}}</h3>
         <el-card v-for="(experience, index) in experiencesData.experiences"
             v-bind:data="experience"
             v-bind:index="index"
