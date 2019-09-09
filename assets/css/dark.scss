@@ -29,7 +29,8 @@ body {
 .container {
 	background-color: #303030;
 	// background-color: #FAFAFA; light theme
-	border: 10px solid #303030;
+	// border: 10px solid #303030;
+	padding: 10px;
 
 	border-radius: 5px;
 	margin-top:20px;
@@ -120,7 +121,7 @@ li {
 }
 
 .el-card {
-	border: 1px solid #424242;
+	border: 1px;
     background-color: #424242;
     color: #FFFFFF;
 	transition: .3s;
