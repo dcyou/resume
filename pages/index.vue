@@ -1,46 +1,45 @@
 <template>
   <el-container>
     <!-- <el-header id='header'></el-header> -->
-    <el-main id='main' class="main-container">
-      <Header/>
-      <About/>
-      <Projects/>
-      <Experience/>
-      <Education/>    
-      <Hobbies/>
+    <el-main id="main" class="main-container">
+      <Header />
+      <About />
+      <Projects />
+      <Experience />
+      <Education />
+      <Hobbies />
     </el-main>
   </el-container>
   <!-- @sproogen thanks for inspiration -->
 </template>
 
 <script>
-    import Header from '~/components/Header.vue'
-    import About from '~/components/About.vue'
-    import Projects from '~/components/Projects.vue'
-    import Experience from '~/components/Experience.vue'
-    import Education from '~/components/Education.vue'
-    import Hobbies from '~/components/Hobbies.vue'
-  
+import Header from "~/components/Header.vue"
+import About from "~/components/About.vue"
+import Projects from "~/components/Projects.vue"
+import Experience from "~/components/Experience.vue"
+import Education from "~/components/Education.vue"
+import Hobbies from "~/components/Hobbies.vue"
+
 export default {
-    components: { Header, About, Projects, Experience, Education, Hobbies },
-   data() {
-      return {
-      }
-    },
-    mounted: function() {
-      this.$nextTick(function() {
-        this.betaMessage();
-      });
-    },
-    methods: {
-      betaMessage: function() {
-        this.$message({
-          showClose: true,
-          duration: 10000,
-          message: 'Beta version, work in progress',
-          type: 'warning'
-        });
-      }
+  components: { Header, About, Projects, Experience, Education, Hobbies },
+  data() {
+    return {}
+  },
+  mounted: function() {
+    this.$nextTick(function() {
+      this.betaMessage()
+    })
+  },
+  methods: {
+    betaMessage: function() {
+      this.$message({
+        showClose: true,
+        duration: 10000,
+        message: "Beta version, work in progress",
+        type: "warning"
+      })
     }
+  }
 }
 </script>
