@@ -51,7 +51,7 @@ experiences:
   description: | # this will include new lines to allow paragraphs
     <ul>
       <li>
-        As Lead developer
+        Lead developer
         <ul>
           <li>By combine different technology, web applications for proof of concept</li>
           <li>Elasticsearch with Meteor to build an intelligent search engine tailored</li>
@@ -66,7 +66,7 @@ experiences:
         </ul>
       </li>
       <li>
-        As DevOps
+        DevOps
         <ul>
           <li>From scratch, creation and support of a software factory. Environments of development, qualification and production for Matlab models (Windows moved to Linux Redhat) and another one for web applications (implementation from scratch Linux Redhat)</li>
           <li>Management of Ubuntu server with Docker. Creation of image and scripting to simplify the usage of containers</li>
@@ -74,7 +74,7 @@ experiences:
         </ul>
       </li>
       <li>
-        As Junior data scientist
+        Junior data scientist
         <ul>
           <li>Scripting SQL and PL/SQL to aggregate, clean and calculate data.</li>
           <li>Analyze, organize and structured data to help principal scientists</li>
