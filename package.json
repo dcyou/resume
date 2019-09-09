@@ -9,7 +9,9 @@
     "start": "nuxt start",
     "test": "jest",
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate"
+    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "nuxt": "^2.0.0",
@@ -18,11 +20,26 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1",
     "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.3",
     "babel-jest": "^24.1.0",
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "husky": "^3.0.5",
     "jest": "^24.1.0",
     "js-yaml-loader": "^1.2.2",
     "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
     "sass-loader": "^7.2.0",
     "vue-jest": "^4.0.0-0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
   }
 }
