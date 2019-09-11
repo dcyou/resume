@@ -50,6 +50,8 @@
 
 <script>
 import header from "~/assets/yaml/header.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -62,7 +64,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.header = header
+      this.header = safeLoad(header)
     }
   }
 }

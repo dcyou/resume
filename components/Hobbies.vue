@@ -15,6 +15,8 @@
 
 <script>
 import hobbies from "~/assets/yaml/hobbies.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -27,7 +29,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.hobbies = hobbies
+      this.hobbies = safeLoad(hobbies)
     }
   }
 }

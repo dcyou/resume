@@ -32,6 +32,8 @@
 
 <script>
 import educationsData from "~/assets/yaml/educations.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -44,7 +46,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.educationsData = educationsData
+      this.educationsData = safeLoad(educationsData)
     }
   }
 }

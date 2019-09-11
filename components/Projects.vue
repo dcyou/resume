@@ -25,6 +25,8 @@
 
 <script>
 import projectsData from "~/assets/yaml/projects.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -37,7 +39,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.projectsData = projectsData
+      this.projectsData = safeLoad(projectsData)
     }
   }
 }

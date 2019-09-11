@@ -28,6 +28,8 @@
 
 <script>
 import about from "~/assets/yaml/about.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -40,7 +42,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.about = about
+      this.about = safeLoad(about)
     }
   }
 }

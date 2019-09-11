@@ -62,7 +62,7 @@ export default {
     extend(config, ctx) {
       config.module.rules.push({
         test: /\.ya?ml$/,
-        use: "js-yaml-loader"
+        use: "raw-loader"
       })
       // Exécuter ESLint lors de la sauvegarde
       if (ctx.isDev && ctx.isClient) {

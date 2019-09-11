@@ -33,6 +33,8 @@
 
 <script>
 import experiencesData from "~/assets/yaml/experiences.yml"
+import { safeLoad } from "js-yaml"
+
 export default {
   props: [],
   data() {
@@ -45,7 +47,7 @@ export default {
   },
   methods: {
     getContent() {
-      this.experiencesData = experiencesData
+      this.experiencesData = safeLoad(experiencesData)
     }
   }
 }
