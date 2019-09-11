@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "start": "nuxt start",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
