@@ -44,9 +44,9 @@ export default {
    */
   plugins: ["@/plugins/element-ui"],
   /*
-   ** Nuxt.js dev-modules
+   ** Nuxt.js build-modules
    */
-  devModules: [],
+  buildModules: [],
   /*
    ** Nuxt.js modules
    */
