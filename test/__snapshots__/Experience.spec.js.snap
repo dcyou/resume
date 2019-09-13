@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience Default Template 1`] = `
+<div class="container">
+  <h3>
+    Work experience
+  </h3>
+  <div class="el-card is-always-shadow" data="[object Object]" index="0">
+    <div class="el-card__header">
+      <div style="text-align: center;">
+        <p><a href="https://david.dcyou.fr" class="el-link el-link--default is-underline">
+            <!----><span class="el-link--inner"><i class="far fa-building"></i>
+          DCyou
+        </span>
+            <!----></a>
+          <div class="el-divider el-divider--vertical">
+            <!---->
+          </div> <i class="fas fa-map-marker-alt"></i> Annecy
+        </p>
+        <p>2018 - 2019</p>
+        <p>founder</p>
+      </div>
+    </div>
+    <div class="el-card__body">
+      <div>
+        <ul>
+          <li>Website, Channel manager, Marketing (Google Ads etc.) and manual labor for <a href="https://chalet-charmelie.com">Chalet le Charmélie 1600</a> at Flaine</li>
+          <li>
+            Self-taught:
+            <ul>
+              <li>
+                Jenkins: <a href="https://trainingcourses.page.link/jenkins">1</a>
+                <a href="https://trainingcourses.page.link/jenkins-2">2</a>
+              </li>
+              <li>
+                Python: <a href="https://trainingcourses.page.link/python-1">1</a>
+                <a href="https://trainingcourses.page.link/python-2">2</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/magento1">Magento 1</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/react">React / Firebase</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/react-native">React Native</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/silex">Silex</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/behat">BDD (Behat)</a>
+              </li>
+              <li>
+                <a href="https://trainingcourses.page.link/aws">AWS (EC2, RDS, Beanstalk, S3)</a>
+              </li>
+              <li>
+                Laravel 5.8 + VueJS 2.x
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="el-card is-always-shadow" data="[object Object]" index="1">
+    <div class="el-card__header">
+      <div style="text-align: center;">
+        <p><a href="https://www.firmenich.com" class="el-link el-link--default is-underline">
+            <!----><span class="el-link--inner"><i class="far fa-building"></i>
+          Firmenich
+        </span>
+            <!----></a>
+          <div class="el-divider el-divider--vertical">
+            <!---->
+          </div> <i class="fas fa-map-marker-alt"></i> Geneva
+        </p>
+        <p>2014 - 2018</p>
+        <p>Lead developer / DevOps / Junior data scientist</p>
+      </div>
+    </div>
+    <div class="el-card__body">
+      <div>
+        <ul>
+          <li>
+            Lead developer
+            <ul>
+              <li>By combine different technology, web applications for proof of concept</li>
+              <li>Elasticsearch with Meteor to build an intelligent search engine tailored</li>
+              <li>PHP with MySQL for an global application of user management and application management</li>
+              <li>NodeJS, create some packages for the applications (authentication with JWT, databases connections etc.) usage of some Design Pattern</li>
+              <li>NodeJS, Matlab, MySQL and MongoDB to build a complex app to improve business performance</li>
+
+              <li>Code review</li>
+              <li>Team training for Git best practices and development best practices</li>
+              <p>Languages: <mark>NodeJS</mark> <mark>React</mark> <mark>PHP</mark> <mark>Matlab</mark> </p>
+              <p>Databases: <mark>MySQL</mark> <mark>Elasticsearch</mark> <mark>MongoDB</mark> <mark>Oracle</mark> <mark>GraphQL</mark></p>
+            </ul>
+          </li>
+          <li>
+            DevOps
+            <ul>
+              <li>From scratch, creation and support of a software factory. Environments of development, qualification and production for Matlab models (Windows moved to Linux Redhat) and another one for web applications (implementation from scratch Linux Redhat)</li>
+              <li>Management of Ubuntu server with Docker. Creation of image and scripting to simplify the usage of containers</li>
+              <p>Skills: <mark>Docker</mark> <mark>GIT</mark> <mark>Gitlab</mark> <mark>Gitlab CI</mark> <mark>Capistrano</mark> <mark>LAMP</mark> <mark>NGINX</mark> <mark>Matlab Production Server</mark></p>
+            </ul>
+          </li>
+          <li>
+            Junior data scientist
+            <ul>
+              <li>Scripting SQL and PL/SQL to aggregate, clean and calculate data.</li>
+              <li>Analyze, organize and structured data to help principal scientists</li>
+              <li>Implementation of Matlab Unit testing</li>
+              <li>Official training by Mathworks:</li>
+              <ul>
+                <li>MATLAB Fundamentals</li>
+                <li>MATLAB Programming Techniques</li>
+                <li>Building Interactive Applications in MATLAB</li>
+                <li>Machine Learning with MATLAB</li>
+              </ul>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="el-card is-always-shadow" data="[object Object]" index="2">
+    <div class="el-card__header">
+      <div style="text-align: center;">
+        <p><a href="https://www.greenweez.com/" class="el-link el-link--default is-underline">
+            <!----><span class="el-link--inner"><i class="far fa-building"></i>
+          Greenweez.com
+        </span>
+            <!----></a>
+          <div class="el-divider el-divider--vertical">
+            <!---->
+          </div> <i class="fas fa-map-marker-alt"></i> Annecy
+        </p>
+        <p>2012 - 2014</p>
+        <p>Web developer</p>
+      </div>
+    </div>
+    <div class="el-card__body">
+      <div>
+        <ul>
+          <li>Website development and maintenance</li>
+          <li>Project management (mobile website, implementation of new payment and delivery method)</li>
+          <li>Development of new order check out by using PHP object</li>
+          <li>Implementation of a new search engine with Elasticsearch</li>
+          <li>Internationalization to open the website to new countries (Spain, UK, Italy etc.)</li>
+          <li>Code review to fix some security breach</li>
+          <p>Skills: <mark>PHP</mark> <mark>JavaScript</mark> <mark>MySQL</mark> <mark>Elasticsearch</mark></p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="el-card is-always-shadow" data="[object Object]" index="3">
+    <div class="el-card__header">
+      <div style="text-align: center;">
+        <p><a href="https://www.dipole.eu/" class="el-link el-link--default is-underline">
+            <!----><span class="el-link--inner"><i class="far fa-building"></i>
+          Dipole
+        </span>
+            <!----></a>
+          <div class="el-divider el-divider--vertical">
+            <!---->
+          </div> <i class="fas fa-map-marker-alt"></i> Lyon
+        </p>
+        <p>2010 - 2012</p>
+        <p>Student</p>
+      </div>
+    </div>
+    <div class="el-card__body">
+      <div>
+        <ul>
+          <li>
+            Migration of a Workflow product (management of quality) from C++ to a web solution
+            <p>Skills: <mark>PHP (Zend Framework)</mark> <mark>JavaScript (ExtJS)</mark> <mark>JGraph</mark> <mark>FusionChart</mark> <mark>PowerChart</mark></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="el-card is-always-shadow" data="[object Object]" index="4">
+    <div class="el-card__header">
+      <div style="text-align: center;">
+        <p><a href="https://www.ret.fr/" class="el-link el-link--default is-underline">
+            <!----><span class="el-link--inner"><i class="far fa-building"></i>
+          ESS / RET
+        </span>
+            <!----></a>
+          <div class="el-divider el-divider--vertical">
+            <!---->
+          </div> <i class="fas fa-map-marker-alt"></i> Annecy
+        </p>
+        <p>2008 - 2010</p>
+        <p>Student</p>
+      </div>
+    </div>
+    <div class="el-card__body">
+      <div>
+        <ul>
+          <li>
+            Work as an system and network administrator
+            <p>Skills: <mark>OCS</mark> <mark>GLPI</mark> <mark>WIKI</mark> <mark>WSUS</mark> <mark>Windows servers administration</mark> <mark>hiring process</mark></p>
+          </li>
+          <li>
+            Applications development for files treatment and accounting management
+            <p>Skills: <mark>C#</mark> <mark>Crystal report</mark></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

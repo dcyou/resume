@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education Default Template 1`] = `
+<div class="container">
+  <h3>
+    Education
+  </h3>
+  <ul class="el-timeline">
+    <li class="el-timeline-item">
+      <div class="el-timeline-item__tail"></div>
+      <div class="el-timeline-item__node el-timeline-item__node--normal el-timeline-item__node--">
+        <!---->
+      </div>
+      <!---->
+      <div class="el-timeline-item__wrapper">
+        <div class="el-timeline-item__timestamp is-top">
+          2010 - 2012
+        </div>
+        <div class="el-timeline-item__content">
+          <div class="el-card is-always-shadow">
+            <!---->
+            <div class="el-card__body">
+              <h4>
+                EPSI
+                <div class="el-divider el-divider--vertical">
+                  <!---->
+                </div> <span><i class="fas fa-map-marker-alt"></i>
+            Lyon
+          </span></h4>
+              <p>Master’s degree</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </li>
+    <li class="el-timeline-item">
+      <div class="el-timeline-item__tail"></div>
+      <div class="el-timeline-item__node el-timeline-item__node--normal el-timeline-item__node--">
+        <!---->
+      </div>
+      <!---->
+      <div class="el-timeline-item__wrapper">
+        <div class="el-timeline-item__timestamp is-top">
+          2009 - 2010
+        </div>
+        <div class="el-timeline-item__content">
+          <div class="el-card is-always-shadow">
+            <!---->
+            <div class="el-card__body">
+              <h4>
+                Partner Formation
+                <div class="el-divider el-divider--vertical">
+                  <!---->
+                </div> <span><i class="fas fa-map-marker-alt"></i>
+            Lyon
+          </span></h4>
+              <p>Bachelor’s degree « IT Project Manager »</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </li>
+    <li class="el-timeline-item">
+      <div class="el-timeline-item__tail"></div>
+      <div class="el-timeline-item__node el-timeline-item__node--normal el-timeline-item__node--">
+        <!---->
+      </div>
+      <!---->
+      <div class="el-timeline-item__wrapper">
+        <div class="el-timeline-item__timestamp is-top">
+          2007 - 2009
+        </div>
+        <div class="el-timeline-item__content">
+          <div class="el-card is-always-shadow">
+            <!---->
+            <div class="el-card__body">
+              <h4>
+                Maestris
+                <div class="el-divider el-divider--vertical">
+                  <!---->
+                </div> <span><i class="fas fa-map-marker-alt"></i>
+            Valence
+          </span></h4>
+              <p>HND Application developer</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </li>
+  </ul>
+</div>
+`;

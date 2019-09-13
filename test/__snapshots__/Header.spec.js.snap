@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Default Template 1`] = `
+<div class="container">
+  <div class="el-row">
+    <div class="el-col el-col-12">
+      <div class="header-left">
+        <h1>David Turbert</h1>
+        <h2>Senior Web or Lead Developer / Junior Data Scientist</h2>
+      </div>
+    </div>
+    <div class="el-col el-col-12">
+      <div>
+        <ul class="no-print icons">
+          <li><a target="_blank" href="https://www.github.com/dcyou"><i title="Github link" class="fab fa-github"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/dcyou"><i title="Linkedin link" class="fab fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/david_turbert"><i title="Twitter link" class="fab fa-twitter"></i></a></li>
+          <li><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-paper-plane"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

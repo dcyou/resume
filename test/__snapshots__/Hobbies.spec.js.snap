@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hobbies Default Template 1`] = `
+<div class="container">
+  <h3>
+    Activities and interests
+  </h3>
+  <div class="el-card is-always-shadow">
+    <!---->
+    <div class="el-card__body">
+      Sports (cycling, running, triathlon etc.), High Tech actualities (IOT, CTF etc.), epicurean, earth and environment, ‘Mens sana in corpore sano’
+
+    </div>
+  </div>
+</div>
+`;
