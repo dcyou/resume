@@ -1,0 +1,12 @@
+# About Section
+# about_title: About Me (Use this to override)
+about_profile_image: me.jpg
+about_content: > # this will include new lines to allow paragraphs
+  Hi, my name’s David. 
+  I'm Web Developer. 
+  My experience has allowed me to acquire solid knowledge in development, but not only. 
+  Whatever programming language is used, 
+  my knowledge of software engineering allows me to put into practice, 
+  with rigor, the best development practices. 
+  Curious by nature and self-taught I like to follow the new technologies news. 
+  Continuous learning is an indispensable thing for me, both professionally and personally.

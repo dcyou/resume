@@ -1,0 +1,15 @@
+# Education Template
+# educations_title: Education #(Use this to override)
+educations:
+- name: EPSI
+  place: Lyon
+  dates: 2010 - 2012
+  qualification: Master’s degree
+- name: Partner Formation
+  place: Lyon
+  dates: 2009 - 2010
+  qualification: Bachelor’s degree « IT Project Manager »
+- name: Maestris
+  place: Valence
+  dates: 2007 - 2009
+  qualification: HND Application developer

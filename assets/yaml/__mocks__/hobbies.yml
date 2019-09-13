@@ -1,0 +1,8 @@
+# Hobbies Section
+# hobbies_title: Activities and interests #(Use this to override)
+hobbies_content: > # this will include new lines to allow paragraphs
+  Sports (cycling, running, triathlon etc.), 
+  High Tech actualities (IOT, CTF etc.), 
+  epicurean, earth and environment, 
+  ‘Mens sana in corpore sano’
+

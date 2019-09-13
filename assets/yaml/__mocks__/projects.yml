@@ -1,0 +1,13 @@
+# Project template
+# projects_title: Projects #(Use this to override)
+projects:
+- name: Resume
+  link: https://github.com/dcyou/resume
+  description: > # this will include new lines to allow paragraphs
+    I started this project as a way of learning <mark>NuxtJS</mark> and <mark>Element</mark> component library. 
+    I have learned many skills through this and been I’m very proud of having this in my portfolio. 
+    If you don’t have a project as awesome as this I would advise you make one.
+    I also explore the basis of <mark>Travis</mark> to compile this project and publish it on the <mark>Github page</mark>
+    Finally, I am not a Web Designer but I would like to understand well the <mark>Dark Theme</mark> provide by Google.
+    So this is why I manually modify the <mark>CSS</mark> to follow as many as possible 
+    <a href="https://material.io/design/color/dark-theme.html">Google recommandations</a>

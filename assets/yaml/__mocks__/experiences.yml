@@ -1,0 +1,134 @@
+# Experience template
+# experiences_title: Work experience #(Use this to override)
+experiences:
+- company: DCyou
+  link: https://david.dcyou.fr
+  place: Annecy
+  job_title: founder
+  dates: 2018 - 2019
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>Website, Channel manager, Marketing (Google Ads etc.) and manual labor for <a href="https://chalet-charmelie.com">Chalet le Charmélie 1600</a> at Flaine</li>
+      <li>
+        Self-taught:
+          <ul>
+            <li>
+              Jenkins:    <a href="https://trainingcourses.page.link/jenkins">1</a>
+                          <a href="https://trainingcourses.page.link/jenkins-2">2</a>
+            </li>
+            <li>
+              Python:   <a href="https://trainingcourses.page.link/python-1">1</a>
+                        <a href="https://trainingcourses.page.link/python-2">2</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/magento1">Magento 1</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/react">React / Firebase</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/react-native">React Native</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/silex">Silex</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/behat">BDD (Behat)</a>
+            </li>
+            <li>
+              <a href="https://trainingcourses.page.link/aws">AWS (EC2, RDS, Beanstalk, S3)</a>
+            </li>
+            <li>
+              Laravel 5.8 + VueJS 2.x
+            </li>
+          </ul>
+        </ul>
+- company: Firmenich
+  link: https://www.firmenich.com
+  place: Geneva
+  job_title: Lead developer / DevOps / Junior data scientist
+  dates: 2014 - 2018
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>
+        Lead developer
+        <ul>
+          <li>By combine different technology, web applications for proof of concept</li>
+          <li>Elasticsearch with Meteor to build an intelligent search engine tailored</li>
+          <li>PHP with MySQL for an global application of user management and application management</li>
+          <li>NodeJS, create some packages for the applications (authentication with JWT, databases connections etc.) usage of some Design Pattern</li>
+          <li>NodeJS, Matlab, MySQL and MongoDB to build a complex app to improve business performance</li>
+
+          <li>Code review</li>
+          <li>Team training for Git best practices and development best practices</li>
+          <p>Languages: <mark>NodeJS</mark> <mark>React</mark> <mark>PHP</mark> <mark>Matlab</mark> </p>
+          <p>Databases: <mark>MySQL</mark> <mark>Elasticsearch</mark> <mark>MongoDB</mark> <mark>Oracle</mark> <mark>GraphQL</mark></p>
+        </ul>
+      </li>
+      <li>
+        DevOps
+        <ul>
+          <li>From scratch, creation and support of a software factory. Environments of development, qualification and production for Matlab models (Windows moved to Linux Redhat) and another one for web applications (implementation from scratch Linux Redhat)</li>
+          <li>Management of Ubuntu server with Docker. Creation of image and scripting to simplify the usage of containers</li>
+          <p>Skills: <mark>Docker</mark> <mark>GIT</mark> <mark>Gitlab</mark> <mark>Gitlab CI</mark> <mark>Capistrano</mark> <mark>LAMP</mark> <mark>NGINX</mark> <mark>Matlab Production Server</p>
+        </ul>
+      </li>
+      <li>
+        Junior data scientist
+        <ul>
+          <li>Scripting SQL and PL/SQL to aggregate, clean and calculate data.</li>
+          <li>Analyze, organize and structured data to help principal scientists</li>
+          <li>Implementation of Matlab Unit testing</li>
+          <li>Official training by Mathworks:</li>
+            <ul>
+              <li>MATLAB Fundamentals</li>
+              <li>MATLAB Programming Techniques</li>
+              <li>Building Interactive Applications in MATLAB</li>
+              <li>Machine Learning with MATLAB</li>
+            </ul>
+        </ul>
+      </li>
+    </ul>
+- company: Greenweez.com
+  link: https://www.greenweez.com/
+  place: Annecy
+  job_title: Web developer
+  dates: 2012 - 2014
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>Website development and maintenance</li>
+      <li>Project management (mobile website, implementation of new payment and delivery method)</li>
+      <li>Development of new order check out by using PHP object</li>
+      <li>Implementation of a new search engine with Elasticsearch</li>
+      <li>Internationalization to open the website to new countries (Spain, UK, Italy etc.)</li>
+      <li>Code review to fix some security breach</li>
+      <p>Skills: <mark>PHP</mark> <mark>JavaScript</mark> <mark>MySQL</mark> <mark>Elasticsearch</mark></p>
+    </ul>
+    
+- company: Dipole
+  link: https://www.dipole.eu/
+  place: Lyon
+  job_title: Student
+  dates: 2010 - 2012
+  description: | # this will include new lines to allow paragraphs
+    <ul><li>
+      Migration of a Workflow product (management of quality) from C++ to a web solution
+      <p>Skills: <mark>PHP (Zend Framework)</mark> <mark>JavaScript (ExtJS)</mark> <mark>JGraph</mark> <mark>FusionChart</mark> <mark>PowerChart</mark></p>
+    </li></ul>
+- company: ESS / RET
+  link: https://www.ret.fr/
+  place: Annecy
+  job_title: Student
+  dates: 2008 - 2010
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>
+        Work as an system and network administrator
+        <p>Skills: <mark>OCS</mark> <mark>GLPI</mark> <mark>WIKI</mark> <mark>WSUS</mark> <mark>Windows servers administration</mark> <mark>hiring process</mark></p>
+      </li>
+      <li>
+        Applications development for files treatment and accounting management
+        <p>Skills: <mark>C#</mark> <mark>Crystal report</mark></p>
+      </li>
+    </ul>
+  
