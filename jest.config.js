@@ -16,5 +16,6 @@ module.exports = {
     "<rootDir>/components/**/*.vue",
     "<rootDir>/pages/**/*.vue"
   ],
+  coverageReporters: ["text-lcov"],
   snapshotSerializers: ["<rootDir>/node_modules/jest-serializer-vue"]
 }
