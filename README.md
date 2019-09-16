@@ -1,4 +1,8 @@
 # dcyou.github.io
+[![Build Status](https://travis-ci.org/dcyou/resume.svg?branch=master)](https://travis-ci.org/dcyou/resume)
+[![Known Vulnerabilities](https://snyk.io//test/github/dcyou/resume/badge.svg?targetFile=package.json)](https://snyk.io//test/github/dcyou/resume?targetFile=package.json)
+[![Coverage Status](https://coveralls.io/repos/github/dcyou/resume/badge.svg?branch=master)](https://coveralls.io/github/dcyou/resume?branch=master)
+
 
 > dcyou resume
 
