@@ -41,6 +41,19 @@
                 <i class="fas fa-paper-plane" title="Email link" />
               </a>
             </li>
+            <li v-if="header.phone">
+              <a target="_blank" :href="'tel:' + header.phone">
+                <i class="fas fa-phone-alt" title="Phone link" />
+              </a>
+            </li>
+            <li v-if="header.skype_username">
+              <a
+                target="_blank"
+                :href="'skype:' + header.skype_username + '?userinfo'"
+              >
+                <i class="fab fa-skype" title="Skype link" />
+              </a>
+            </li>
           </ul>
         </div>
       </el-col>
