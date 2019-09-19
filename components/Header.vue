@@ -9,7 +9,7 @@
       </el-col>
       <el-col :span="12">
         <div style="header-right">
-          <ul class="no-print icons">
+          <ul class="icons">
             <li v-if="header.github_username">
               <a
                 target="_blank"

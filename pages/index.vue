@@ -37,7 +37,8 @@ export default {
         showClose: true,
         duration: 10000,
         message: "Beta version, work in progress",
-        type: "warning"
+        type: "warning",
+        customClass: "no-print"
       })
     }
   }

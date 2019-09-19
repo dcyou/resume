@@ -7,6 +7,10 @@ mark {
     border-radius: 5px;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    @media print {
+		color: #000000;
+		background-color: #FFFFFF;
+	}
 }
 
 ul.icons a:hover {
@@ -32,10 +36,19 @@ ul.icons a {
     box-shadow: none;
     padding:0;
     border-radius: 100%;
+    @media print {
+        display: initial;
+        line-height: 5px;
+    }
+    
 }
 .icons i {
     font-size: 30px;
     line-height:60px;
+    @media print {
+        font-size: 15px;
+        line-height:5px;        
+    }
 }
 
 .icons {
@@ -43,13 +56,14 @@ ul.icons a {
     font-size: 1em;
     margin-bottom:20px;
     text-align: right;
-}
-
-@media screen and (max-width: 768px) {
-    .icons {
-        text-align: center;
+    @media print {
+        padding-left: 2cm;
+        margin-bottom:5px;
+        text-align: left;
     }
 }
+
+
    
 .header-right {
     text-align: right;
@@ -57,19 +71,21 @@ ul.icons a {
   
 .header-left {
     margin-top: 10px;
-
     @media print {
         margin-top: 0px;
     }
 }
 
-  
-// @media print {
-//     .col-print-12 {
-//         width: 100%;
-//     }
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+    a:link:after, a:visited:after, a:-webkit-any-link {
+        content: " (" attr(href) ") ";
+        font-size: 90%;
+        text-decoration: none;
+    }
+    @page { margin: 0.5cm }
+}
 
-//     .no-print, .no-print * {
-//         display: none !important;
-//     }
-// }
+
