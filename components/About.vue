@@ -6,7 +6,6 @@
         <p>
           <el-avatar
             shape="circle"
-            :size="100"
             fit="fill"
             :src="about.about_profile_image"
           />

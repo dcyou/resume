@@ -54,16 +54,23 @@ ul.icons a {
 .icons {
     padding: 0;
     font-size: 1em;
+    padding-left: 3cm;
     margin-bottom:20px;
-    text-align: right;
+    text-align: center;
     @media print {
         padding-left: 2cm;
         margin-bottom:5px;
         text-align: left;
+        a:link:after, a:visited:after, a:-webkit-any-link {
+            content: " " attr(href) " ";
+            text-decoration: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding-left: 0cm;
+        margin-right:50px;
     }
 }
-
-
    
 .header-right {
     text-align: right;
@@ -73,6 +80,17 @@ ul.icons a {
     margin-top: 10px;
     @media print {
         margin-top: 0px;
+    }
+}
+
+.el-avatar {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    @media screen and (max-width: 420px) {
+       height: 80px;
+       width: 80px;
+       line-height: 80px;
     }
 }
 
@@ -87,7 +105,6 @@ ul.icons a {
     }
     @page { margin: 0.5cm }
 }
-
 
 .corner-ribbon{
     width: 200px;
@@ -111,9 +128,7 @@ ul.icons a {
     -webkit-transform: rotate(45deg);
     background: #1e8ad6
   }
-  
+
   .corner-ribbon.sticky{
     position: fixed;
   }
-
-

@@ -13,12 +13,18 @@ experiences:
         Self-taught:
           <ul>
             <li>
-              Jenkins:    <a href="https://trainingcourses.page.link/jenkins">1</a>
-                          <a href="https://trainingcourses.page.link/jenkins-2">2</a>
+              Jenkins:
+                <ul>
+                  <li><a href="https://trainingcourses.page.link/jenkins">1</a></li>
+                  <li><a href="https://trainingcourses.page.link/jenkins-2">2</a></li>
+                </ul>
             </li>
             <li>
-              Python:   <a href="https://trainingcourses.page.link/python-1">1</a>
-                        <a href="https://trainingcourses.page.link/python-2">2</a>
+              Python:
+                <ul>
+                  <li><a href="https://trainingcourses.page.link/python-1">1</a></li>
+                  <li><a href="https://trainingcourses.page.link/python-2">2</a></li>
+                </ul>
             </li>
             <li>
               <a href="https://trainingcourses.page.link/magento1">Magento 1</a>
