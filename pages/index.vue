@@ -9,6 +9,9 @@
       <Education />
       <Hobbies />
     </el-main>
+    <div class="corner-ribbon top-right sticky no-print" @click="print()">
+      Print me
+    </div>
   </el-container>
   <!-- @sproogen thanks for inspiration -->
 </template>
@@ -40,6 +43,9 @@ export default {
         type: "warning",
         customClass: "no-print"
       })
+    },
+    print: function() {
+      window.print()
     }
   }
 }
