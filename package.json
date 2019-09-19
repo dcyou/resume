@@ -8,6 +8,7 @@
     "dev": "nuxt",
     "start": "nuxt start",
     "test": "jest",
+    "test-update": "jest --updateSnapshot",
     "testtravis": "jest | coveralls",
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",

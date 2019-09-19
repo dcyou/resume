@@ -16,6 +16,8 @@ exports[`Header Default Template 1`] = `
           <li><a target="_blank" href="https://www.linkedin.com/in/dcyou"><i title="Linkedin link" class="fab fa-linkedin"></i></a></li>
           <li><a target="_blank" href="https://twitter.com/david_turbert"><i title="Twitter link" class="fab fa-twitter"></i></a></li>
           <li><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-paper-plane"></i></a></li>
+          <li><a target="_blank" href="tel:+33.633.578.939"><i title="Phone link" class="fas fa-phone-alt"></i></a></li>
+          <!---->
         </ul>
       </div>
     </div>

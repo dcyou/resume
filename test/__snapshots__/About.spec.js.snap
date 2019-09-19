@@ -5,7 +5,7 @@ exports[`About Default Template 1`] = `
   <h3>About Me</h3>
   <div class="el-row">
     <div class="el-col el-col-8">
-      <p><span class="el-avatar el-avatar--circle" style="height: 100px; width: 100px; line-height: 100px;"><img src="me.jpg" style="object-fit: fill;"></span></p>
+      <p><span class="el-avatar el-avatar--circle"><img src="me.jpg" style="object-fit: fill;"></span></p>
     </div>
     <div class="el-col el-col-16">
       <p>Hi, my name’s David. I'm Web Developer. My experience has allowed me to acquire solid knowledge in development, but not only. Whatever programming language is used, my knowledge of software engineering allows me to put into practice, with rigor, the best development practices. Curious by nature and self-taught I like to follow the new technologies news. Continuous learning is an indispensable thing for me, both professionally and personally.
