@@ -13,7 +13,7 @@ branches:
 install:
   - npm install
   - npm run generate
-  - npm run testtravis
+  - npm run test-travis
 
 script:
   - echo "Skipping tests"

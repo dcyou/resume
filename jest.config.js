@@ -11,7 +11,7 @@ module.exports = {
     ".*\\.(vue)$": "vue-jest",
     ".*\\.yml$": "<rootDir>/test/__loaders__/jest-raw-loader.js"
   },
-  collectCoverage: true,
+  collectCoverage: false,
   collectCoverageFrom: [
     "<rootDir>/components/**/*.vue",
     "<rootDir>/pages/**/*.vue"
