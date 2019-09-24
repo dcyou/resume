@@ -3,7 +3,7 @@
     <h3>
       {{
         experiencesData.experiences_title
-          ? experiencesData.experience_title
+          ? experiencesData.experiences_title
           : "Work experience"
       }}
     </h3>

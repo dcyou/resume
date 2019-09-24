@@ -3,7 +3,7 @@
     <h3>
       {{
         educationsData.educations_title
-          ? educationsData.education_title
+          ? educationsData.educations_title
           : "Education"
       }}
     </h3>
