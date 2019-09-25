@@ -50,7 +50,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ["vue-github-buttons/nuxt"],
   /*
    ** Build configuration
    */

@@ -132,3 +132,11 @@ ul.icons a {
   .corner-ribbon.sticky{
     position: fixed;
   }
+
+  .el-footer{
+    @media print {
+        display: none !important;
+    } 
+    margin: 0 auto;
+    padding-top: 10px;
+  }

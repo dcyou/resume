@@ -16,8 +16,9 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
-    "element-ui": "^2.4.11"
+    "vue-github-buttons": "^3.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",

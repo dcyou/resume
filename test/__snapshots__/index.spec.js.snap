@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Default Template 1`] = `
-<section class="el-container">
+<section class="el-container is-vertical">
   <main class="el-main main-container" id="main">
     <div class="container">
       <div class="el-row">
@@ -374,5 +374,8 @@ exports[`Index Default Template 1`] = `
   <div class="corner-ribbon top-right sticky no-print">
     Print me
   </div>
+  <footer class="el-footer" style="height: 60px;">
+    <gh-btns-star slug="dcyou/resume"></gh-btns-star>
+  </footer>
 </section>
 `;

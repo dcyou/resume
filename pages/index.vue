@@ -12,6 +12,9 @@
     <div class="corner-ribbon top-right sticky no-print" @click="print()">
       Print me
     </div>
+    <el-footer>
+      <gh-btns-star slug="dcyou/resume" />
+    </el-footer>
   </el-container>
   <!-- @sproogen thanks for inspiration -->
 </template>
@@ -25,7 +28,14 @@ import Education from "~/components/Education.vue"
 import Hobbies from "~/components/Hobbies.vue"
 
 export default {
-  components: { Header, About, Projects, Experience, Education, Hobbies },
+  components: {
+    Header,
+    About,
+    Projects,
+    Experience,
+    Education,
+    Hobbies
+  },
   data() {
     return {}
   },
