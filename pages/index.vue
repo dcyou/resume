@@ -29,21 +29,7 @@ export default {
   data() {
     return {}
   },
-  mounted: function() {
-    this.$nextTick(function() {
-      this.betaMessage()
-    })
-  },
   methods: {
-    betaMessage: function() {
-      this.$message({
-        showClose: true,
-        duration: 10000,
-        message: "Beta version, work in progress",
-        type: "warning",
-        customClass: "no-print"
-      })
-    },
     print: function() {
       window.print()
     }
