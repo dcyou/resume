@@ -2,13 +2,14 @@
 
 exports[`About Default Template 1`] = `
 <div class="container">
-  <h3>open-source</h3>
+  <h3 id="about-title">About Me</h3>
   <div class="el-row">
     <div class="el-col el-col-8">
-      <p><span class="el-avatar el-avatar--circle"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/badlittleduck/128.jpg" style="object-fit: fill;"></span></p>
+      <p><span class="el-avatar el-avatar--circle" id="about-profile-image"><img src="me.jpg" style="object-fit: fill;"></span></p>
     </div>
     <div class="el-col el-col-16">
-      <p>Qui corporis id beatae. Voluptas cupiditate nostrum ut quae voluptate enim. Aut mollitia illum nesciunt eius sint. Quo quia omnis adipisci cumque et omnis aut rem molestiae. Ea consectetur aut doloremque quia repellendus hic et autem alias.</p>
+      <p id="about-content">Hi, my name’s David. I'm Web Developer. My experience has allowed me to acquire solid knowledge in development, but not only. Whatever programming language is used, my knowledge of software engineering allows me to put into practice, with rigor, the best development practices. Curious by nature and self-taught I like to follow the new technologies news. Continuous learning is an indispensable thing for me, both professionally and personally.
+      </p>
     </div>
   </div>
 </div>
