@@ -2,10 +2,10 @@
 
 exports[`Hobbies Default Template 1`] = `
 <div class="container">
-  <h3>
+  <h3 id="hobbies-title">
     Activities and interests
   </h3>
-  <div class="el-card is-always-shadow">
+  <div class="el-card is-always-shadow" id="hobbies-content">
     <!---->
     <div class="el-card__body">
       Sports (cycling, running, triathlon etc.), High Tech actualities (IOT, CTF etc.), epicurean, earth and environment, ‘Mens sana in corpore sano’
