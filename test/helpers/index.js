@@ -2,9 +2,14 @@ import { createFactory, elementFactory } from "../factories"
 import { mount } from "@vue/test-utils"
 
 export function mountHelper(Component) {
-  return createFactory(({ props = {}, options = {} }) => {
+  return createFactory(({ props = {}, options = {}, values = {} }) => {
     return mount(Component, {
       propsData: { ...props },
+      data() {
+        return {
+          ...values
+        }
+      },
       ...elementFactory(),
       ...options
     })
