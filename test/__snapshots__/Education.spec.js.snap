@@ -2,7 +2,7 @@
 
 exports[`Education Default Template 1`] = `
 <div class="container">
-  <h3>
+  <h3 id="education-title">
     Education
   </h3>
   <ul class="el-timeline">
