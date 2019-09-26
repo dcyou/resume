@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects Default Template 1`] = `
+exports[`Project Default Template 1`] = `
 <div class="container">
-  <h3>
+  <h3 id="project-title">
     Projects
   </h3>
   <div class="el-card is-always-shadow" data="[object Object]" index="0">
