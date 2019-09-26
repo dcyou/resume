@@ -7,18 +7,18 @@ exports[`Index Default Template 1`] = `
       <div class="el-row">
         <div class="el-col el-col-12">
           <div class="header-left">
-            <h1>David Turbert</h1>
-            <h2>Senior Web or Lead Developer / Junior Data Scientist</h2>
+            <h1 id="name">David Turbert</h1>
+            <h2 id="title">Senior Web or Lead Developer / Junior Data Scientist</h2>
           </div>
         </div>
         <div class="el-col el-col-12">
           <div>
             <ul class="icons">
-              <li><a target="_blank" href="https://www.github.com/dcyou"><i title="Github link" class="fab fa-github"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/in/dcyou"><i title="Linkedin link" class="fab fa-linkedin"></i></a></li>
-              <li><a target="_blank" href="https://twitter.com/david_turbert"><i title="Twitter link" class="fab fa-twitter"></i></a></li>
-              <li><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-paper-plane"></i></a></li>
-              <li><a target="_blank" href="tel:+33.633.578.939"><i title="Phone link" class="fas fa-phone-alt"></i></a></li>
+              <li id="icons-github"><a target="_blank" href="https://www.github.com/dcyou"><i title="Github link" class="fab fa-github"></i></a></li>
+              <li id="icons-linkedin"><a target="_blank" href="https://www.linkedin.com/in/dcyou"><i title="Linkedin link" class="fab fa-linkedin"></i></a></li>
+              <li id="icons-twitter"><a target="_blank" href="https://twitter.com/david_turbert"><i title="Twitter link" class="fab fa-twitter"></i></a></li>
+              <li id="icons-email"><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-paper-plane"></i></a></li>
+              <li id="icons-phone"><a target="_blank" href="tel:+33.633.578.939"><i title="Phone link" class="fas fa-phone-alt"></i></a></li>
               <!---->
             </ul>
           </div>
@@ -26,19 +26,19 @@ exports[`Index Default Template 1`] = `
       </div>
     </div>
     <div class="container">
-      <h3>About Me</h3>
+      <h3 id="about-title">About Me</h3>
       <div class="el-row">
         <div class="el-col el-col-8">
-          <p><span class="el-avatar el-avatar--circle"><img src="me.jpg" style="object-fit: fill;"></span></p>
+          <p><span class="el-avatar el-avatar--circle" id="about-profile-image"><img src="me.jpg" style="object-fit: fill;"></span></p>
         </div>
         <div class="el-col el-col-16">
-          <p>Hi, my name’s David. I'm Web Developer. My experience has allowed me to acquire solid knowledge in development, but not only. Whatever programming language is used, my knowledge of software engineering allows me to put into practice, with rigor, the best development practices. Curious by nature and self-taught I like to follow the new technologies news. Continuous learning is an indispensable thing for me, both professionally and personally.
+          <p id="about-content">Hi, my name’s David. I'm Web Developer. My experience has allowed me to acquire solid knowledge in development, but not only. Whatever programming language is used, my knowledge of software engineering allows me to put into practice, with rigor, the best development practices. Curious by nature and self-taught I like to follow the new technologies news. Continuous learning is an indispensable thing for me, both professionally and personally.
           </p>
         </div>
       </div>
     </div>
     <div class="container">
-      <h3>
+      <h3 id="project-title">
         Projects
       </h3>
       <div class="el-card is-always-shadow" data="[object Object]" index="0">
@@ -56,7 +56,7 @@ exports[`Index Default Template 1`] = `
       </div>
     </div>
     <div class="container">
-      <h3>
+      <h3 id="experience-title">
         Work experience
       </h3>
       <div class="el-card is-always-shadow" data="[object Object]" index="0">
@@ -268,7 +268,7 @@ exports[`Index Default Template 1`] = `
       </div>
     </div>
     <div class="container">
-      <h3>
+      <h3 id="education-title">
         Education
       </h3>
       <ul class="el-timeline">
@@ -359,10 +359,10 @@ exports[`Index Default Template 1`] = `
       </ul>
     </div>
     <div class="container">
-      <h3>
+      <h3 id="hobbies-title">
         Activities and interests
       </h3>
-      <div class="el-card is-always-shadow">
+      <div class="el-card is-always-shadow" id="hobbies-content">
         <!---->
         <div class="el-card__body">
           Sports (cycling, running, triathlon etc.), High Tech actualities (IOT, CTF etc.), epicurean, earth and environment, ‘Mens sana in corpore sano’
