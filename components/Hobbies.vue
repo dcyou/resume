@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
-    <h3>
+  <div v-if="hobbies.hobbies_content" class="container">
+    <h3 id="hobbies-title">
       {{
         hobbies.hobbies_title
           ? hobbies.hobbies_title
           : "Activities and interests"
       }}
     </h3>
-    <el-card>
+    <el-card id="hobbies-content">
       {{ hobbies.hobbies_content }}
     </el-card>
   </div>

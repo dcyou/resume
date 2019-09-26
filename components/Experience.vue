@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h3>
+  <div v-if="experiencesData.experiences" class="container">
+    <h3 id="experience-title">
       {{
         experiencesData.experiences_title
           ? experiencesData.experiences_title

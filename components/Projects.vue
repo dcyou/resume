@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h3>
+  <div v-if="projectsData.projects" class="container">
+    <h3 id="project-title">
       {{
         projectsData.projects_title ? projectsData.projects_title : "Projects"
       }}
