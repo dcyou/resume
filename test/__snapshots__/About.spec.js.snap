@@ -2,7 +2,9 @@
 
 exports[`About Default Template 1`] = `
 <div class="container">
-  <h3 id="about-title">About Me</h3>
+  <h3 id="about-title">
+    About Me
+  </h3>
   <div class="el-row">
     <div class="el-col el-col-8">
       <p><span class="el-avatar el-avatar--circle" id="about-profile-image"><img src="me.jpg" style="object-fit: fill;"></span></p>

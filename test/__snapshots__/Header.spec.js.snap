@@ -5,8 +5,12 @@ exports[`Header Default Template 1`] = `
   <div class="el-row">
     <div class="el-col el-col-12">
       <div class="header-left">
-        <h1 id="name">David Turbert</h1>
-        <h2 id="title">Senior Web or Lead Developer / Junior Data Scientist</h2>
+        <h1 id="name">
+          David Turbert
+        </h1>
+        <h2 id="title">
+          Senior Web or Lead Developer / Junior Data Scientist
+        </h2>
       </div>
     </div>
     <div class="el-col el-col-12">

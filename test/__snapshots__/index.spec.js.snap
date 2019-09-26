@@ -7,8 +7,12 @@ exports[`Index Default Template 1`] = `
       <div class="el-row">
         <div class="el-col el-col-12">
           <div class="header-left">
-            <h1 id="name">David Turbert</h1>
-            <h2 id="title">Senior Web or Lead Developer / Junior Data Scientist</h2>
+            <h1 id="name">
+              David Turbert
+            </h1>
+            <h2 id="title">
+              Senior Web or Lead Developer / Junior Data Scientist
+            </h2>
           </div>
         </div>
         <div class="el-col el-col-12">
@@ -26,7 +30,9 @@ exports[`Index Default Template 1`] = `
       </div>
     </div>
     <div class="container">
-      <h3 id="about-title">About Me</h3>
+      <h3 id="about-title">
+        About Me
+      </h3>
       <div class="el-row">
         <div class="el-col el-col-8">
           <p><span class="el-avatar el-avatar--circle" id="about-profile-image"><img src="me.jpg" style="object-fit: fill;"></span></p>
