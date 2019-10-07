@@ -31,6 +31,7 @@
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.2.0",
     "eslint-loader": "^3.0.0",
+    "eslint-plugin-jsdoc": "^15.9.10",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.2.3",
     "faker": "^4.1.0",
