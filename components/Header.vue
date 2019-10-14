@@ -42,7 +42,7 @@
             </li>
             <li v-if="header.email" id="icons-email">
               <a target="_blank" :href="'mailto:' + header.email">
-                <i class="fas fa-paper-plane" title="Email link" />
+                <i class="fas fa-at" title="Email link" />
               </a>
             </li>
             <li v-if="header.phone" id="icons-phone">
