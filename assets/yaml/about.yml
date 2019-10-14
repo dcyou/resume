@@ -2,7 +2,7 @@
 # about_title: About Me (Use this to override)
 about_profile_image: me.jpg
 about_content: > # this will include new lines to allow paragraphs
-  Hi, my name’s David. 
+  Hi, my name’s David, I'm 30 and I live in Annecy (France).
   I'm Web Developer. 
   My experience has allowed me to acquire solid knowledge in development, but not only. 
   Whatever programming language is used, 
@@ -10,3 +10,4 @@ about_content: > # this will include new lines to allow paragraphs
   with rigor, the best development practices. 
   Curious by nature and self-taught I like to follow the new technologies news. 
   Continuous learning is an indispensable thing for me, both professionally and personally.
+  <p><b>Swiss work permit G (valid until /07/2021)</b></p>
