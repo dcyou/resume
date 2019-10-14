@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/dcyou/resume/compare/v1.1.2...v1.2.0) (2019-10-14)
+
+
+### Features
+
+* **about:** add information like, age, living place and Swiss permit ([a9f5787](https://github.com/dcyou/resume/commit/a9f5787)), closes [#3](https://github.com/dcyou/resume/issues/3)
+
 ### [1.1.2](https://github.com/dcyou/resume/compare/v1.1.1...v1.1.2) (2019-10-07)
 
 ### [1.1.1](https://github.com/dcyou/resume/compare/v1.1.0...v1.1.1) (2019-09-26)
