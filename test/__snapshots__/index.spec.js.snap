@@ -21,7 +21,7 @@ exports[`Index Default Template 1`] = `
               <li id="icons-github"><a target="_blank" href="https://www.github.com/dcyou"><i title="Github link" class="fab fa-github"></i></a></li>
               <li id="icons-linkedin"><a target="_blank" href="https://www.linkedin.com/in/dcyou"><i title="Linkedin link" class="fab fa-linkedin"></i></a></li>
               <li id="icons-twitter"><a target="_blank" href="https://twitter.com/david_turbert"><i title="Twitter link" class="fab fa-twitter"></i></a></li>
-              <li id="icons-email"><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-paper-plane"></i></a></li>
+              <li id="icons-email"><a target="_blank" href="mailto:david@dcyou.fr"><i title="Email link" class="fas fa-at"></i></a></li>
               <li id="icons-phone"><a target="_blank" href="tel:+33.633.578.939"><i title="Phone link" class="fas fa-phone-alt"></i></a></li>
               <!---->
             </ul>
