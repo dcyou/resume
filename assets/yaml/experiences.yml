@@ -1,6 +1,19 @@
 # Experience template
 # experiences_title: Work experience #(Use this to override)
 experiences:
+- company: BNP Paribas
+  link: https://group.bnpparibas/
+  place: Geneva
+  job_title: Analyst developer
+  dates: 2019 - Now
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>Automation of inventory process and improvement of existing</li>
+      <li>Data analysis to create rules</li>
+      <li>Implementation of automatic correction tools</li>
+      <p>Skills: <mark>Powershell</mark> <mark>SQL Server</mark> <mark>Active Directory</mark></p>
+    </ul>
+    
 - company: DCyou
   link: https://david.dcyou.fr
   place: Annecy
