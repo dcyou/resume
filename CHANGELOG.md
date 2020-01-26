@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/dcyou/resume/compare/v1.2.2...v1.3.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* import header case sensitivity ([e5bee95](https://github.com/dcyou/resume/commit/e5bee95))
+* package.json & package-lock.json to reduce vulnerabilities ([d0ad69b](https://github.com/dcyou/resume/commit/d0ad69b))
+
+
+### Features
+
+* add BNPP experience ([ec1586f](https://github.com/dcyou/resume/commit/ec1586f))
+
 ### [1.2.2](https://github.com/dcyou/resume/compare/v1.2.1...v1.2.2) (2019-10-14)
 
 ### [1.2.1](https://github.com/dcyou/resume/compare/v1.2.0...v1.2.1) (2019-10-14)
