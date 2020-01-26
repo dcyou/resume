@@ -1,6 +1,6 @@
 import faker from "faker"
 import { testHelper, mountHelper } from "./helpers"
-import Header from "~/components/header.vue"
+import Header from "~/components/Header.vue"
 jest.mock(`~/assets/yaml/header.yml`)
 
 describe("Header", () => {
