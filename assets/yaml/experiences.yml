@@ -9,9 +9,8 @@ experiences:
   description: | # this will include new lines to allow paragraphs
     <ul>
       <li>Automation of inventory process and improvement of existing</li>
-      <li>Data analysis to create rules</li>
-      <li>Implementation of automatic correction tools</li>
-      <p>Skills: <mark>Powershell</mark> <mark>SQL Server</mark> <mark>Active Directory</mark></p>
+      <li>Extraction from a large set of data source, to a global repository</li>
+      <p>Skills: <mark>Powershell</mark> <mark>MSSQL</mark> <mark>Ansible</mark> <mark>Service Now</mark> <mark>BMC Discovery</mark> <mark>Active Directory</mark></p>
     </ul>
     
 - company: DCyou
