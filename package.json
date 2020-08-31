@@ -21,7 +21,7 @@
     "element-ui": "^2.13.2",
     "nuxt": "^2.14.1",
     "vue-github-buttons": "^3.1.0",
-    "snyk": "^1.369.3"
+    "snyk": "^1.370.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
