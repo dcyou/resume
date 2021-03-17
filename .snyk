@@ -2074,3 +2074,5 @@ patch:
         patched: '2020-11-11T10:34:24.671Z'
     - nuxt > @nuxt/builder > @nuxt/webpack > @nuxt/babel-preset-app > @vue/babel-preset-jsx > @vue/babel-sugar-v-on > @vue/babel-plugin-transform-vue-jsx > @babel/helper-module-imports > @babel/types > lodash:
         patched: '2020-11-11T10:34:24.671Z'
+    - nuxt > @nuxt/babel-preset-app > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2021-03-09T14:54:05.621Z'
