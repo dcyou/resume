@@ -2076,3 +2076,5 @@ patch:
         patched: '2020-11-11T10:34:24.671Z'
     - nuxt > @nuxt/babel-preset-app > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
         patched: '2021-03-09T14:54:05.621Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-05-20T06:46:38.526Z'
