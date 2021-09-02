@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.5",
-    "nuxt": "^2.15.7",
+    "nuxt": "^2.15.8",
     "vue-github-buttons": "^3.1.0",
     "snyk": "^1.677.0"
   },
