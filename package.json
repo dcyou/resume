@@ -18,7 +18,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "element-ui": "^2.15.5",
+    "element-ui": "^2.15.6",
     "nuxt": "^2.15.8",
     "vue-github-buttons": "^3.1.0",
     "snyk": "^1.695.0"
