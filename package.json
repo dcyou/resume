@@ -24,7 +24,7 @@
     "snyk": "^1.989.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^8.3.6",
     "@commitlint/config-conventional": "^8.2.0",
     "@fortawesome/fontawesome-free": "^5.10.1",
     "@vue/test-utils": "^1.0.0-beta.27",
