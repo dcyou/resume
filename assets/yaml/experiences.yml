@@ -1,11 +1,21 @@
 # Experience template
 # experiences_title: Work experience #(Use this to override)
 experiences:
+- company: Alogo Analysis
+  link: https://alogo.io/
+  place: Renens (CH)
+  job_title: CTO
+  dates: 2020 - Now
+  description: | # this will include new lines to allow paragraphs
+    <ul>
+      <li>Responsible for developing, implementing, managing and evaluating the company's technology resources</li>
+      <p>Skills: <mark>Laravel (PHP)</mark> <mark>MySQL</mark> <mark>VueJS 3</mark> <mark>Vite</mark> <mark>Tailwind</mark> <mark>AWS (EC2, S3, IAM, CloudFront, Lambda)</mark> <mark>Active Directory</mark></p>
+    </ul>
 - company: BNP Paribas
   link: https://group.bnpparibas/
   place: Geneva (CH)
   job_title: Analyst developer
-  dates: 2019 - Now
+  dates: 2019 - 2020
   description: | # this will include new lines to allow paragraphs
     <ul>
       <li>Automation of inventory process and improvement of existing</li>
