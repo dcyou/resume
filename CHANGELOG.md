@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/dcyou/resume/compare/v1.3.1...v1.3.2) (2022-11-08)
+
+
+### Bug Fixes
+
+* build project ([eabf8d0](https://github.com/dcyou/resume/commit/eabf8d0c4a7931a0c845611dfbcf8cf8cd8ddbd7))
+* upgrade snyk from 1.1000.0 to 1.1005.0 ([5c21885](https://github.com/dcyou/resume/commit/5c21885e9098b4028ad198f79e989c99f18342ba))
+
 ### [1.3.1](https://github.com/dcyou/resume/compare/v1.3.0...v1.3.1) (2022-10-20)
 
 
